@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+public class Odd_Even
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter the number : ");
+		int num=s.nextInt();
+		switch(num%2)
+		{
+			case 0:System.out.println("Is Even ");break;
+			case 1:System.out.println("Is Odd");break;
+		}
+	}
+}
+
+/*
+import java.io.*;
+import java.util.*;
+public class Odd_Even
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		printf("Enter the number : ");
+		int num=s.nextInt();
+		System.out.println((num%2==0)?"Even":"Odd");
+		
+	}
+}
+*/
