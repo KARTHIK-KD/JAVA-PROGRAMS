@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+public class Vowel
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter the Charcter : ");
+		char vowelChar=s.next().charAt(0);
+		if(vowelChar=='a' || vowelChar=='e' || vowelChar=='i' || vowelChar=='o' || vowelChar=='u' || vowelChar=='A' || vowelChar=='E' || vowelChar=='I' || vowelChar=='O' || vowelChar=='U')
+		{
+			System.out.println("Vowel");
+		}
+		else
+		{
+			System.out.println("Not Vowel");
+		}
+	}
+}
