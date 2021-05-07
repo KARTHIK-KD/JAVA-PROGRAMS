@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+public class Biggest_Number
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter the first number  : ");
+		int num1=s.nextInt();
+		System.out.print("Enter the Second number : ");
+ 		int num2=s.nextInt();
+		System.out.println((num1>num2)?(num1):(num2));
+	}
+}
